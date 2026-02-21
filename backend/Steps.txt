@@ -1,0 +1,52 @@
+python -m venv venv # to create virtual environment
+venv\Scripts\activate # to start the environment
+.venv\Scripts\activate # to start the environment
+uvicorn app:app --reload # for run the API
+http://127.0.0.1:8000/docs # check running FastAPI
+http://127.0.0.1:8000/api/analyze-skin # request URL
+
+
+OpenRouter Image + text Models
+1. qwen/qwen3-vl-30b-a3b-thinking
+2. qwen/qwen3-vl-235b-a22b-thinking
+3. nvidia/nemotron-nano-12b-v2-vl:free
+
+
+Gemini Image + Text Models
+1. models/gemini-2.0-flash
+2. models/gemini-2.0-flash-001
+3. models/gemini-2.0-flash-lite
+4. models/gemini-2.5-flash
+5. models/gemini-flash-lite-latest
+
+Not Recommended for Your Use Case but available
+gemini-2.5-pro		Heavy, usually paid
+gemini-pro-latest	Often paid tier
+gemini-3-* preview	Experimental / quota limited
+gemini-2.5-flash-image	Focused on image generation
+
+
+
+# Git Steps
+rmdir /s /q .git # Delete .git folder if you have
+Create or confirm .gitignore contains:
+.env
+__pycache__/
+*.pyc
+Step 3
+git init
+git add .
+git commit -m "Initial clean commit"
+git branch -M main
+git remote add origin https://github.com/tyageshdarmatics/Test-OpenRouter.git
+git push -u origin main --force
+
+# prompt
+1. First Analyse this project all files and the make an implementation plan for add OpenRouter API Key and AI Model for alternative AI Option If the gemini API and that AI model can faild then OpenRouter API and that AI model can responsed so that can the flow can not break so first Analyse all files of this folder and then make a implementation plan for this and also in implementation plan give me the places location and files name where the changes is needed understand!
+
+2. I updated the .env file and below is the OpenRouter Model now remember don't remove anything else from any files just add this thing nothing else and don't break any flow or thing else just add this thing nothing else understand! now proceed
+OpenRouter Image + text Models
+1. qwen/qwen3-vl-30b-a3b-thinking
+2. qwen/qwen3-vl-235b-a22b-thinking
+3. nvidia/nemotron-nano-12b-v2-vl:free
+
